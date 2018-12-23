@@ -1,0 +1,804 @@
+div{
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.screen {
+  width: 100%;
+  margin: auto;
+  background:#000000;
+}
+.indexNavImg {
+  margin: 0 auto;
+  height: 400px;
+  overflow: hidden;
+  width: 1348px;
+  position: relative;
+}
+.indexNavImg .indexNavImgBox {
+  width: 500%;
+  height: 400px;
+  position: absolute;
+}
+.indexNavImg .indexNavImgBox .indexNavImgTop {
+  width: 20%;
+  height: 400px;
+  float: left;
+  cursor: pointer;
+}
+.indexNavImg .indexNavImgindexNavMengbanLeft {
+  width: 626px;
+  height: 400px;
+  /* opacity: 0.5;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  filter: alpha(opacity=50); */
+  background: rgba(0,0,0,0.72);
+  position: absolute;
+  top: 0;
+}
+.indexNavImg .indexNavImgindexNavMengbanLeft .indexNavImgMengbanRightTitleE {
+  font-size: 48px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: left;
+  width: 396px;
+  height: 54px;
+  margin: 190px auto 24px;
+}
+.indexNavImg .indexNavImgindexNavMengbanLeft .indexNavImgMengbanRightTxtE {
+  font-size: 22px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: left;
+  width: 396px;
+  height: 54px;
+  margin: 0 auto;
+}
+.indexNavImg .indexNavImgindexNavMengbanLeft .indexNavImgMengbanRightTitleC {
+  font-size: 44px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: left;
+  width: 396px;
+  height: 54px;
+  margin: 100px 0px 0px 150px;
+}
+.indexNavImg .indexNavImgindexNavMengbanLeft .indexNavImgMengbanRightTxtC {
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: left;
+  width: 396px;
+  height: 54px;
+  margin: 100px 0px 0px 150px;
+}
+.indexNavImg .indexNavImgindexNavMengbanRight {
+  width: 140px;
+  height: 400px;
+  background: rgba(0,0,0,0.72);
+  /* opacity: 0.5;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  filter: alpha(opacity=50); */
+  position: absolute;
+  right: 0px;
+  top: 0;
+}
+.indexNavImg .indexMengbanLeftMore {
+  background: rgba(0,0,0,0.55);
+  /* opacity: 0.7;
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  filter: alpha(opacity=70); */
+  height: 400px;
+  width: 80px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.indexNavImg .indexMengbanLeftMore .indexMengbanLeftMoreionc {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 30px;
+  position: relative;
+  left: 0;
+  top: 140px;
+  z-index: 200;
+  color: #ffffff;
+  cursor: pointer;
+  display: none;
+  font-family: 宋体;
+}
+.indexNavImg .indexMengbanRightMore {
+  /* opacity: 0.7;
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  filter: alpha(opacity=70); */
+  background: rgba(0,0,0,0.55);
+  height: 400px;
+  width: 80px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.indexNavImg .indexMengbanRightMore .indexMengbanRightMoreionc {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 30px;
+  position: relative;
+  left: 0;
+  top: 140px;
+  z-index: 200;
+  color: #ffffff;
+  cursor: pointer;
+  display: none;
+  font-family: 宋体;
+}
+.briefInnerTabBox > div:hover {
+  border-bottom: 2px solid #dae4ed;
+}
+.briefInnerTabListStart:hover {
+  border-bottom: 2px solid red;
+}
+.indexBrief {
+  width: 100%;
+  /* height: 800px; */
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.indexBrief .indexBriefInner {
+  margin: 0 auto;
+  width: 1086px;
+   height: 619px; 
+}
+.indexBrief .indexBriefInner .indexBriefInnerTitle {
+  height: 68px;
+  line-height: 68px;
+  width: 100%;
+  font-size: 44px;
+  color: #044a84;
+}
+.indexBrief .indexBriefInner .briefInnerTab {
+  height: 85px;
+  width: 100%;
+}
+.indexBrief .indexBriefInner .briefInnerTab .briefInnerTabBox {
+  height: 100px;
+  margin-top: 100px;
+}
+.indexBrief .indexBriefInner .briefInnerTab .briefInnerTabBox .briefInnerTabListBoder {
+  border-bottom: 2px solid #044a84;
+}
+.indexBrief .indexBriefInner .briefInnerTab .briefInnerTabBox .briefInnerTabList {
+  height: 26px;
+  padding: 0 6px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 18px;
+  color: #044a84;
+  float: left;
+  cursor: pointer;
+}
+.indexBrief .indexBriefInner .briefInnerTab .briefInnerTabBox .briefInnerTabListMid {
+  margin: 0 48px;
+}
+.indexBrief .indexBriefInner .briefInnerTab .briefInnerTabBox .briefInnerTabListStart {
+  float: left;
+  text-align: left;
+  width: 36px;
+  line-height: 26px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #044a84;
+  margin-right: 20px;
+}
+.indexBrief .indexBriefInner .briefInnerTab .briefInnerTabBox .briefInnerTabListEnd {
+  float: right;
+}
+.indexBrief .indexBriefInner .briefInnerTab .briefInnerTabTxt {
+  font-size: 14px;
+  color: #808080;
+  letter-spacing: 0;
+  height: 30px;
+  line-height: 30px;
+  width: 645px;
+  margin-left: 66px;    
+  display: block;
+  float: left;
+}
+.imgBtn{    
+  width: 569px;
+  height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.imgBtn img{
+      margin: 16px;
+    margin-left: 87px;
+}
+.imgBtn:hover{
+  box-shadow:0 2px 4px 0 rgba(204,204,204,0.50);
+  border-right: 10px solid #044a84;
+}
+.indexBrief .indexBriefInner .briefInnerTabImgBox {
+  width: 100%;
+  height: 392px;
+}
+.indexBrief .indexBriefInner .briefInnerTabImgBox .briefInnerTabImgBoxList {
+  /* width: 100%;
+  height: 100%; */
+  /* display: none; */
+  float: right;
+}
+.indexBrief .indexBriefInner .briefInnerTabImgBox .briefInnerTabImgBoxList .briefInnerTabImg {
+  width: 416px;
+  height: 401px;
+}
+.indexFunction {
+  /* height: 1010px; */
+  width: 100%;
+  background: #f5f5f5;
+}
+.indexFunction .indexFunctionNav {
+  height: 134px;
+  width: 964px;
+  margin: 0 auto;
+}
+.indexFunction .indexFunctionNav .indexFunctionNavList:hover {
+  color: #79b8f3;
+}
+.indexFunction .indexFunctionNav .indexFunctionNavList {
+  width: 320px;
+  height: 134px;
+  line-height: 134px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: PingFangSC-Regular;
+  float: left;
+  cursor: pointer;
+}
+.indexFunction .indexFunctionNav .indexFunctionNavListHover {
+  color: #79b8f3;
+}
+.indexFunction .indexFunctionInerBox {
+   /*height: 716px; */
+  /* width: 960px; */
+  margin: 0 auto;
+  padding:67px 0px;
+}
+.indexFunction .indexFunctionInerBox .indexFunctionIner {
+  /* height: 650px; */
+  width: 1085px;
+  margin: 0 auto;
+   background: white; 
+  padding: 24px 0px;
+  display: none;
+  /* background: rgba(255,255,255,0.5) url(../../../images/index/functionTop.png) no-repeat bottom; */
+}
+.indexFunction .indexFunctionInerBox .indexFunctionIner .functionInerTop {
+  height: 288px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.01);
+}
+.indexFunction .indexFunctionInerBox .indexFunctionIner .functionInerTop .functionInerFlex {
+  width: 489px;
+  height: 100%;
+  float: left;
+}
+.functionInerFlex1 {
+   width: 543px; 
+  height: 100%;
+  float: left;
+}
+
+.functionTopTitle {
+  font-size: 24px;
+  color: #484848;
+  letter-spacing: 0;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 47px;
+}
+
+.functionTopTxt {
+  font-size: 14px;
+  color: #4d4d4d;
+  letter-spacing: 0;
+  line-height: 27px;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: -60px;
+}
+
+.indexFunction .indexFunctionInerBox .indexFunctionIner .functionInerTop .functionInerFlex .functionInerLeftTopImg {
+  width: 100%;
+  height: 100%;
+}
+.indexFunction .indexFunctionInerBox .indexFunctionIner .functionInerTop .functionInerFlex .functionTopTitle {
+  font-size: 24px;
+  color: #484848;
+  letter-spacing: 0;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 47px;
+}
+.indexFunction .indexFunctionInerBox .indexFunctionIner .functionInerTop .functionInerFlex .functionTopTxt {
+  font-size: 14px;
+  color: #4d4d4d;
+  letter-spacing: 0;
+  line-height: 27px;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: -60px;
+}
+.indexFunction .indexFunctionInerBox .indexFunctionIner .functionInerFooter {
+  width: 100%;
+   height: 325px; 
+  margin-left: 50px;
+  overflow: hidden;
+}
+.indexFunction .indexFunctionInerBox .indexFunctionIner .functionInerFooter .functionInerFooterTitle {
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+  color: #484848;
+  letter-spacing: 0;
+  text-align: left;
+  margin: 0;
+  font-weight: bold;
+}
+.indexFunction .indexFunctionInerBox .indexFunctionIner .functionInerFooter .functionInerImgBrief {
+  width: 100%;
+  height: 100px;
+}
+.indexFunction .indexFunctionInerBox .indexFunctionIner .functionInerFooter .functionInerImgBrief .functionInerImgBriefLeft {
+  float: left;
+  height: 100px;
+  width: 114px;
+}
+.indexFunction .indexFunctionInerBox .indexFunctionIner .functionInerFooter .functionInerImgBrief .functionInerImgBriefLeft .functionBriefImg {
+  width: 55px;
+  height: 62px;
+  margin-left: 27px;
+}
+.indexFunction .indexFunctionInerBox .indexFunctionIner .functionInerFooter .functionInerImgBrief .functionInerImgBriefRight {
+  width: 560px;
+  height: 78px;
+  font-size: 14px;
+  color: #4d4d4d;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: left;
+  float: left;
+  margin-left: 50px;
+  padding-top: 18px;
+  border-bottom: 1px solid #e2e0e0;
+}
+.indexGeneralManger {
+  /*width: 1086px;*/
+  height: 515px;
+}
+.indexGeneralManger .indexGeneralMangerInner {
+  width: 1086px;
+   /*height: 100%; */
+  margin: 0 auto;
+}
+.indexGeneralManger .indexGeneralMangerInner .indexBriefInnerTitle {
+  height: 140px;
+  line-height: 140px;
+  width: 100%;
+  font-size: 48px;
+  color: #044a84;
+}
+.indexGeneralManger .indexGeneralMangerInner .indexGeneralContent {
+  width: 1086px;
+  /* height: 520px; */
+}
+.indexGeneralManger .indexGeneralMangerInner .indexGeneralContent .indexGeneralMainImg {
+  /* height: 520px; */
+  width: 494px;
+  float: left;
+}
+.indexGeneralManger .indexGeneralMangerInner .indexGeneralContent .indexGeneralMainImg .indexGeneralMainImgBox .indexGeneralMainImgSrc {
+  height: 260px;
+  width: 464px;
+}
+.indexGeneralManger .indexGeneralMangerInner .indexGeneralContent .indexGeneralMainImg .indexGeneralMainBtnBox {
+  width: 100%;
+  height: 60px;
+  margin-top: 42px;
+  padding-right: 30px;
+}
+.indexGeneralManger .indexGeneralMangerInner .indexGeneralContent .indexGeneralMainImg .indexGeneralMainBtnBox .indexGeneralMainBtn {
+  line-height: 50px;
+  float: right;
+  color: white;
+  text-align: center;
+  background: #044a84;
+  width: 149px;
+  height: 50px;
+  font-size: 18px;
+}
+.indexGeneralManger .indexGeneralMangerInner .indexGeneralContent .indexGeneralMainImg .indexGeneralMainImgSrc {
+  width: 254px;
+  height: 300px;
+  margin: 0 auto;
+}
+.indexGeneralManger .indexGeneralMangerInner .indexGeneralContent .indexGeneralMainRight {
+  width: 494px;
+  /* height: 520px; */
+  float: left;
+  padding-left: 100px;
+}
+.indexGeneralManger .indexGeneralMangerInner .indexGeneralContent .indexGeneralMainRight .indexGeneralMainImgTxt {
+  width: 494px;
+  /* height: 520px; */
+  float: left;
+}
+.indexGeneralManger .indexGeneralMangerInner .indexGeneralContent .indexGeneralMainRight .indexGeneralMainImgTxt .indexGeneralLeftOne {
+  height: 182px;
+  width: 100%;
+}
+.indexGeneralManger .indexGeneralMangerInner .indexGeneralContent .indexGeneralMainRight .indexGeneralMainImgTxt .indexGeneralLeftOne .indexGeneralMainImgTitle {
+  font-size: 18px;
+  color: #044a84;
+  letter-spacing: 0;
+  text-align: left;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 23px;
+}
+.indexGeneralManger .indexGeneralMangerInner .indexGeneralContent .indexGeneralMainRight .indexGeneralMainImgTxt .indexGeneralLeftOne .indexGeneralMainTitleList {
+  font-size: 14px;
+  color: #808080;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: left;
+}
+.indexNews {
+  width: 100%;
+  height: 400px;
+}
+.indexNews>a{
+  text-decoration: none;
+}
+.indexNews .indexNewsInner {
+  width: 1086px;
+  height: 400px;
+  margin: 0 auto;
+}
+.indexNews .indexNewsInner .indexBriefInnerTitle {
+  height: 140px;
+  line-height: 114px;
+  width: 100%;
+  font-size: 44px;
+  color: #044a84;
+  margin: 0;
+}
+.indexNews .indexNewsInner .indexNewsContent {
+  width: 1086px;
+  height: 260px;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainImg {
+  height: 260px;
+  width: 464px;
+  float: left;
+  position: relative;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainImg .indexNewsMainImgBox {
+  width: 100%;
+  height: 260px;
+  position: relative;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainImg .indexNewsMainImgBox .indexNewsMainImgSrc {
+  width: 100%;
+  height: 260px;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainImg .indexNewsMainBtnBox {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  padding: 0 30px;
+  font-size: 18px;
+  font-weight: 500;
+  z-index: 1;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainImg .indexNewsMainBtnBox .indexNewsMainBtn {
+  line-height: 36px;
+  float: right;
+  color: white;
+  text-align: center;
+  background: #044a84;
+  background: #4289cc;
+  border-radius: 100px;
+  width: 93px;
+  height: 36px;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainImg .indexNewsMainImgSrcMenB {
+  width: 100%;
+  height: 0;
+  /* opacity: 0.5;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  filter: alpha(opacity=50); */
+  position: absolute;
+  /* background: rgba(0,0,0,0.5); */
+  bottom: 0;
+  left: 0;
+  padding-left: 34px;
+  overflow: hidden;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7));
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainImg .indexNewsMainImgSrcMenB .indexNewsMainImgSrcMenTitle {
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: 34px;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainImg .indexNewsMainImgSrcMenB .indexNewsMainImgSrcMenTxt {
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 27px;
+  text-align: left;
+  width: 356px;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainRight {
+  height: 260px;
+  float: right;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainRight .indexNewsImgTxt {
+  width: 504px;
+  height: 110px;
+  margin-bottom: 40px;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainRight .indexNewsImgTxt .indexNewsImgBox {
+  width: 160px;
+  height: 110px;
+  float: left;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainRight .indexNewsImgTxt .indexNewsImgBox .indexNewsImgSize {
+  width: 160px;
+  height: 110px;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainRight .indexNewsImgTxt .indexNewsImgRightbrief {
+  float: right;
+  width: 322px;
+  height: 110px;
+  position: relative;
+}
+
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainRight .indexNewsImgTxt .indexNewsImgRightbrief a {
+  text-decoration: none;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainRight .indexNewsImgTxt .indexNewsImgRightbrief .indexNewsImgRightTxt {
+  font-size: 14px;
+  color: #333333;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: left;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainRight .Line {
+  width: 505px;
+  height: 1px;
+  background: #e6e6e6;
+  margin-bottom: 19px;
+  margin-top: -20px;
+}
+.indexNews .indexNewsInner .indexNewsContent .indexNewsMainRight .indexNewsImgTxt .indexNewsImgRightbrief .indexNewRightbottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 12px;
+  color: #7b7b7b;
+}
+.indexFooter {
+  width: 100%;
+  /* height: 324px; */
+  background: #424242;
+  margin-top: 40px;
+}
+.indexFooter .indexFooterInner {
+  height: 220px;
+  width: 1086px;
+  margin: 0 auto;
+}
+.indexFooter .indexFooterInner .indexFooterInnerList {
+  width: 186px;
+  /* height: 220px; */
+  float: left;
+  margin-top: 20px;
+}
+.indexFooter .indexFooterInner .indexFooterInnerList .indexFooterInnerListP {
+  color: white;
+  font-size: 14px;
+  line-height: 40px;
+  height: 40px;
+  margin-bottom: 0px;
+}
+.indexFooter .indexFooterInner .indexFooterInnerList .indexFooterInnerListUl li {
+  color: #888888;
+  font-size: 12px;
+  line-height: 30px;
+}
+.indexFooter .indexFooterInner .indexFooterInnerList .indexFooterInnerListUl .Delivery {
+  margin-left: 36px;
+}
+.indexFooter .indexFooterInner .indexFooterInnerList3 {
+  width: 470px;
+}
+.indexFooter .indexFooterInner .indexFooterInnerList4 {
+  margin-top: 20px;
+  /* height: 220px; */
+  width: 230px;
+  float: right;
+}
+.indexFooter .indexFooterInner .indexFooterInnerList4 .indexFooterMoreOne {
+  line-height: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+  display: none;
+}
+.indexFooter .indexFooterInner .indexFooterInnerList4 .indexFooterMoreOne .indexFooterMoreOneBox {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+.indexFooter .indexFooterInner .indexFooterInnerList4 .indexFooterMoreOne .indexFooterMoreOneBox .indexFooterMoreOneBoximg {
+  height: 20px;
+  width: 20px;
+}
+.sWeixin{    
+  width: 95px;
+  height: 95px;
+  margin-right: 40px;
+  display: block;
+  float: left;
+}
+.imgWeixin{
+  width: 95px;
+  height: 95px;
+}
+.txtWeixin{
+  font-size:12px;
+  color:#888888;    
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.sWeibo{    
+  width: 95px;
+  height: 95px;
+  /* margin-right: 40px; */
+  padding: 5px;
+  background-color: white;
+  display: block;
+  float: left;
+}
+.imgWeibo{
+  width: 84px;
+  height: 84px;
+}
+.txtWeibo{
+  font-size:12px;
+  color:#888888; 
+  margin-left: 20px;
+  margin-top: 17px;
+}
+.indexFooter .indexFooterInner .indexFooterInnerList4 .indexFooterMoreTwo {
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+}
+.indexFooter .indexFooterInner .indexFooterInnerList4 .indexFooterMoreTwo .indexFooterMoreTwoBox {
+  width: 80px;
+  height: 80px;
+  margin-right: 30px;
+}
+.indexFooter .indexFooterInner .indexFooterInnerList4 .indexFooterMoreTwo .indexFooterMoreTwoBox .indexFooterMoreTwoBoxImg {
+  width: 80px;
+  height: 80px;
+}
+.indexFooter .indexFooterBottom {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 12px;
+  color: #888888;
+  letter-spacing: 0;
+  margin-top: 18px;
+  padding-bottom: 54px;
+}
+.indexFooter a {
+  font-size: 12px;
+  color: #888888;
+  text-decoration: none;
+}
+.indexFooter a:hover {
+  font-size: 12px;
+  color: #888888;
+  text-decoration: none;
+}
+.indexFooter a:link {
+  font-size: 12px;
+  color: #888888;
+  text-decoration: none;
+}
+.indexFooter a:active {
+  font-size: 12px;
+  color: #888888;
+  text-decoration: none;
+}
+.indexFooter a:visited {
+  font-size: 12px;
+  color: #888888;
+  text-decoration: none;
+}
+.indexGeneralMainBtn{
+  line-height: 50px;
+  float: right;
+  color: white;
+  text-align: center;
+  background: #044a84;
+  width: 149px;
+  height: 50px;
+  font-size: 18px;
+  cursor:pointer;
+}
+.indexGeneralMainBtn a{
+  color: white;
+  text-decoration: none;
+}
+.indexGeneralMainBtn a:hover{
+  color: white;
+  text-decoration: none;
+}
+.indexGeneralMainBtn a:link{
+  color: white;
+  text-decoration: none;
+}
+.indexGeneralMainBtn a:active{
+  color: white;
+  text-decoration: none;
+}
+.indexGeneralMainBtn a:visited{
+  color: white;
+  text-decoration: none;
+}
+.functionTitle{
+  font-family: Arial;
+  font-size:40px;
+  color:#0d5fb6;
+  margin-left: 50px;
+  font-weight: bold;
+}
+.functionContent{
+  font-size:14px;
+  color:#4d4d4d;
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.functionTxt{
+  font-size:18px;
+  color:#4d4d4d;
+  text-align: center;
+      margin: 18px;
+}
+.functionImgDiv{
+  font-size:24px;
+  color:#0d5fb6;
+  text-align: center;
+}
+/*# sourceMappingURL=sectionIndexAll.css.map */

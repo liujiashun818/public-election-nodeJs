@@ -1,0 +1,425 @@
+.App {
+  background: white;
+}
+/* @font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400; */
+  /* src: url(http://localhost:3000/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  /* src: local('Material Icons'), local('MaterialIcons-Regular'), url(http://localhost:3000/MaterialIcons-Regular.woff2) format('woff2'), url(http://localhost:3000/MaterialIcons-Regular.woff) format('woff'), url(http://localhost:3000/MaterialIcons-Regular.ttf) format('truetype'); */
+/* } */
+#DetialListCom {
+  width: 960px;
+  /* height: 1270px; */
+  margin: 0 auto;
+  padding-top: 20px;
+  /* border-top: 2px solid #249cff; */
+}
+#DetialListCom .section {
+  width: 960px;
+  /* height: 1223px; */
+  position: relative;
+  margin-top: 0px;
+  background-color: #ffffff;
+}
+#DetialListCom .section .sectionList {
+  width: 800px;
+  height: auto;
+  /* float: left; */
+  margin: 15px auto;
+}
+#DetialListCom .section .sectionList .sectionListContent {
+  /* width: 800px;
+  /* height: 200px; */
+  /* padding-top: 30px;  */
+}
+#DetialListCom .section .sectionList .sectionListContent .sectionImgBox {
+  width: 60px;
+  float: left;
+  margin-bottom: 30px;
+}
+#DetialListCom .section .sectionList .sectionListContent .sectionImgBox .sectionImg {
+  width: 56px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+#DetialListCom .section .sectionList .sectionListContent .sectionImgBox .sectionImg img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+#DetialListCom .section .sectionList .sectionListContent .sectionTxt {
+  width: 730px;
+  /* height: 200px; */
+  float: right;
+  padding-left: 10px;
+}
+#DetialListCom .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop {
+  width: 100%;
+  height: 34px;
+  line-height: 46px;
+}
+#DetialListCom .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav {
+  width: 100%;
+  height: 40px;
+}
+#DetialListCom .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav .sectionTitle {
+  /* width: 60%; */
+  float: left;
+  margin: 0;
+  overflow: hidden;
+  line-height: 40px;
+  height: 40px;
+  /* cursor: pointer; */
+  font-weight: bold;
+  text-overflow: ellipsis;
+}
+
+.change {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: -3px;
+}
+.value1 {
+  /* display: none; */
+  font-size: 16px;
+  color: #ff5826;
+  text-decoration:none;
+}
+.change .n1 {
+  /* height: 30px; */
+  display: inline-block;
+  color: #ff5826;
+  /* display: none; */
+  font-size: 16px;
+  font-weight: 400;
+  /* margin-top: 6px; */
+}
+
+#DetialListCom .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav .PurseMap {
+  margin-top: -7px;
+}
+
+#DetialListCom .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav .sectionTxtbottom {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+#DetialListCom .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav .sectionTxtbottom .sectionInfoLeft {
+  /* width: 60%; */
+  height: 20px;
+  float: left;
+}
+#DetialListCom .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav .sectionTxtbottom .sectionInfoLeft li {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  color: gray;
+  font-size: 14px;
+  margin-right: 20px;    
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#DetialListCom .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav .sectionTxtbottom .sectionInfoRight {
+  width: 40%;
+  height: 20px;
+  float: right;
+  padding-right: 6px;
+}
+#DetialListCom .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav .sectionTxtbottom .sectionInfoRight li {
+  float: right;
+  height: 20px;
+  line-height: 20px;
+  color: gray;
+  font-size: 14px;
+  margin-left: 30px;
+}
+#DetialListCom .section .sectionList .sectionListContent .sectionTxt .sectionTxtMidDetail {
+  width: 700px;
+  margin-top: 10px;
+  height: 100px;
+  line-height: 26px;
+  text-indent: 30px;
+}
+#DetialListCom .section .sectionList .detailLangue {
+  width: 100%;
+  height: 200px;
+  border: 1px solid gainsboro;
+  /* margin-top: 205px; */
+}
+#DetialListCom .section .sectionList .detailLangue .FaultnewFormtop2 {
+  width: 100%;
+  height: 100px;
+  padding-left: 26px;
+}
+#DetialListCom .section .sectionList .detailLangue .FaultnewFormtop2 .commitNum {
+  width: 100%;
+  height: 20px;
+  text-align: right;
+  padding-right: 22px;
+  margin-top: 20px;
+}
+#DetialListCom .section .sectionList .detailLangue .FaultnewFormtop2 .commitNum .commitNumtics {
+  float: left;
+  font-size: 16px;
+  font-weight: 900;
+}
+#DetialListCom .section .sectionList .detailLangue .FaultnewFormtop2 .commitNum .commitNumtics a {
+  font-size: 14px;
+  font-weight: 200;
+  color: black;
+  margin-left: 6px;
+}
+#DetialListCom .section .sectionList .detailLangue .FaultnewFormtop2 .newFormPlable {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+#DetialListCom .section .sectionList .detailLangue .FaultnewFormtop2 .newFormPlable img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+#DetialListCom .section .sectionList .detailLangue .FaultnewFormtop2 .textareaFaultNew {
+  width: 750px;
+  /* float: right; */
+  height: 90px;
+  border: 1px solid #dad4d4;
+}
+#DetialListCom .section .sectionList .detailLangue .publicSubmit {
+  width: 100%;
+  height: 80px;
+}
+#DetialListCom .section .sectionList .detailLangue .publicSubmit .sectionBtn {
+  float: right;
+  width: 200px;
+  height: 40px;
+  display: block;
+}
+#DetialListCom .section .sectionList .detailLangue .publicSubmit .sectionBtn .sectionBtn1 {
+  background: #249cff;
+  color: white;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 2px;
+  border: none;
+  float: right;
+  margin-top: 32px;
+  margin-left: 10px;
+  margin-right: 22px;
+  border-radius: 5px;
+}
+#DetialListCom .section .comdetialList {
+  width: 100%;
+  /* height: 600px; */
+  margin-top: 30px;
+}
+#DetialListCom .section .comdetialList .comdetialListTitle {
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  font-size: 16px;
+  border-bottom: 1px solid gainsboro;
+}
+#DetialListCom .section .comdetialList .comdetialListTitle .sectionBtnNav {
+  float: right;
+  width: 300px;
+  height: 40px;
+  display: block;
+}
+#DetialListCom .section .comdetialList .comdetialListTitle .sectionBtnNav button {
+  background: white;
+  width: 90px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  border-radius: 2px;
+  border: none;
+  float: right;
+  margin-left: 4px;
+  outline: none;
+}
+#DetialListCom .section .comdetialList .comdetialListTitle .sectionBtnNav .sectionBtn1 {
+  color: #249cff;
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu {
+  /* width: 780px; */
+  height: 180px;
+  /* border-bottom: 1px solid #e5e5e5;
+  margin-top: 16px; */
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu {
+  width: 800px;
+  /* height: 180px; */
+  float: right;
+  border-bottom: 1px solid #e5e5e5;
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu .sectionTxtTop2Huifu {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 0px;
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu .sectionTxtTop2Huifu .sectionImgBoxHuifu {
+  width: 60px;
+  height: 60px;
+  float: left;
+  /* margin-left: 20px; */
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu .sectionTxtTop2Huifu .sectionImgBoxHuifu .sectionImgHuifu {
+  width: 56px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu .sectionTxtTop2Huifu .sectionImgBoxHuifu .sectionImgHuifu img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu .sectionTxtTop2Huifu .sectionInfoHuifu {
+  width: 720px;
+  height: 16px;
+  float: right;
+  margin-top: 12px;
+  display: block;
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu .sectionTxtTop2Huifu .sectionInfoHuifu li {
+  height: 16px;
+  margin-bottom: 10px;
+  line-height: 16px;
+  font-size: 12px;
+  margin-right: 30px;
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu .sectionTxtMid2Huifu {
+  width: 717px;
+  /* height: 67px; */
+  line-height: 30px;
+  /* text-indent: 30px; */
+  margin-top: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-left: 10px;
+  word-wrap: break-word;
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu .sectionTxtbottom2Huifu {
+  width: 100%;
+  height: 20px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu .sectionTxtbottom2Huifu .sectionInfoHuifu {
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu .sectionTxtbottom2Huifu .sectionInfoHuifu li {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  color: gray;
+  width: 110px;
+  font-size: 14px;
+   margin-left: 20px; 
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu .sectionTxtbottom2Huifu .sectionInfoHuifu li i {
+  float: left;
+  cursor: pointer;
+  margin-right: 5px;
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu .sectionTxtbottom2Huifu .sectionInfoHuifu li span {
+  width: 80px;
+  height: 20px;
+  line-height: 24px;
+  display: block;
+  float: right;
+}
+#DetialListCom .section .comdetialList .sectionListContentHuiFu .sectionTxtHuifu .sectionTxtbottom2Huifu .sectionInfoHuifu .replyCountBtnHuifu {
+  display: inline-block;
+  cursor: pointer;
+}
+#DetialListCom .section .comdetialList .textareaReolyBox {
+  width: 800px;
+  height: 120px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  bottom: 0;
+  z-index: 999;
+  left: initial;
+  display: none;
+  margin-top: -37px;
+}
+#DetialListCom .section .comdetialList .textareaReolyBox .textareaReoly {
+  width: 100%;
+  height: 80px;
+  resize: none;
+}
+#DetialListCom .section .comdetialList .textareaReolyBox .publicSubmitReoly {
+  width: 100%;
+  height: 40px;
+}
+#DetialListCom .section .comdetialList .textareaReolyBox .publicSubmitReoly .sectionBtnReoly {
+  float: right;
+  width: 200px;
+  height: 40px;
+  display: block;
+}
+#DetialListCom .section .comdetialList .textareaReolyBox .publicSubmitReoly .sectionBtnReoly .sectionBtn1Reoly {
+  background: #249cff;
+  color: white;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 2px;
+  border: none;
+  float: right;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+#DetialListCom .section .comdetialList .pageCommunityNum {
+  margin-top: 90px;
+}
+#DetialListCom .section article {
+  width: 340px;
+  height: 1430px;
+  float: right;
+}
+#DetialListCom .section article .artcleLogIn {
+  width: 240px;
+  background: #d9edf7;
+  height: auto;
+  padding: 20px 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+#DetialListCom .section article .artcleLogIn .artcleRight #datailOthersTic {
+  padding: 4px 0;
+}
+#DetialListCom .section article .artcleLogIn .artcleRight #datailOthersTic .artcleNameList {
+  margin-left: 20px;
+}
+#DetialListCom .section article .artcleLogIn .artcleRight #datailOthersTic .artcleNameList li {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+#DetialListCom .section article .artcleLogIn .artcleRight #datailOthersTic .artcleNameList li a {
+  color: black;
+}
+#DetialListCom .footerCommunity {
+  height: 200px;
+  width: 100%;
+  background: grey;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+/*# sourceMappingURL=DetialListCom.css.map */

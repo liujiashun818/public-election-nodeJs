@@ -1,0 +1,221 @@
+.detailPage .detailInfo .main .review{
+	width:700px;
+	margin-top:55px;
+
+}
+.detailPage .detailInfo .main .review .revievTop {
+	overflow:hidden;
+}
+.detailPage .detailInfo .main .review .revievTop h4{
+	float:left;
+	font-size:18px;
+	color: #333;
+	line-height:28px;
+	margin-right:10px;
+}
+.detailPage .detailInfo .main .review .revievTop span{
+	float:left;
+	font-size:12px;
+	color:#666;
+	line-height:48px;
+}
+.detailPage .detailInfo .main .review .goReview{
+	width:100%;
+	height:68px;
+	border:2px solid #e5e5e5;
+}
+.detailPage .detailInfo .main .review .reviewBottom{
+	overflow:hidden;
+	width:700px;
+	height:38px;
+	border:2px solid #e5e5e5;
+	border-top:1px solid #e5e5e5;
+	margin-top: -5px;
+}
+.detailPage .detailInfo .main .review .reviewBottom .portrait{
+	float:left;
+	height:36px;
+}
+.detailPage .detailInfo .main .review .reviewBottom .avatar{
+	float: left;
+	margin-right: 5px;
+	width: 32px;
+	height: 32px;
+	margin: 2px;
+	vertical-align: middle;
+}
+.detailPage .detailInfo .main .review .reviewBottom .avatar img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+}
+.detailPage .detailInfo .main .review .reviewBottom .nickname{
+	float:left;
+	margin-left: 10px;
+	height:100%;
+	color:#666;
+	font-size:12px;
+	line-height:36px;
+	/*background-image:url(QQ.png);*/
+	background-repeat:no-repeat;
+	background-position:2px;
+	background-size:30px;
+
+}
+.detailPage .detailInfo .main .review .reviewBottom .reviewInfo{
+	float:right;
+	width:120px;
+	height: 22px;
+	margin-right:10px;
+	color:white;
+	background-color:#249cff;
+	margin-bottom:9px;
+	border-radius:5px;
+	position:relative;
+	top:10px;
+	text-align:center;
+	cursor: pointer;
+}
+.detailPage .detailInfo .main .reviewContent{
+	width:700px;
+	height: auto;
+	margin-top:40px;
+}
+.detailPage .detailInfo .main .reviewContent .reviewConTop{
+	overflow:hidden;
+	padding-bottom:5px;
+}
+.detailPage .detailInfo .main .reviewContent .reviewConTop h4{
+	float:left;
+	font-size:18px;
+	color:#333;
+}
+.detailPage .detailInfo .main .reviewContent .reviewConTop .sort{
+	float:right;
+	font-size:12px;
+	color:#666;
+	position:relative;
+	bottom: -10px;
+}
+/* .detailPage .detailInfo .main .reviewContent .reviewConTop .sort .time{
+	margin-right:20px;
+} */
+.detailPage .detailInfo .main .reviewContent .reviewConTop .sort a{
+	color: #000000;
+	font-size: 14px;
+	margin-right:20px;
+    text-decoration:none;
+	cursor:pointer;
+}
+
+.detailPage .detailInfo .main .reviewContent .reviewConTop .sort .checked{
+	color: #249cff;
+	font-size: 14px;
+	margin-right:20px;
+    text-decoration:none;
+	cursor:pointer;
+}
+
+.detailPage .detailInfo .main .reviewContent .reviewConTop .sort .time:hover,.detailPage .detailInfo .main .reviewContent .reviewConTop .sort .hot:hover{
+	
+  color: #249cff;
+	}
+
+.detailPage .detailInfo .main .reviewContent .reviewCon{
+	border-top: 1px solid #e5e5e5;
+	padding-top: 15px;
+}
+.detailPage .detailInfo .main .reviewContent .reviewCon:hover .top .report{
+	display: block;
+	cursor: pointer;
+}
+.detailPage .detailInfo .main .reviewContent .reviewCon .top{
+	overflow:hidden;
+	height:40px;
+}
+.detailPage .detailInfo .main .reviewContent .reviewCon .top .portrait{
+	float:left;
+	height:50px;
+}
+.detailPage .detailInfo .main .reviewContent .reviewCon .top .portrait .avatar{
+	margin-right: 5px;
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.detailPage .detailInfo .main .reviewContent .reviewCon .top .portrait .avatar img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+}
+.detailPage .detailInfo .main .reviewContent .reviewCon .top .portrait .info{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
+.detailPage .detailInfo .main .reviewContent .reviewCon .top .portrait .info .name{
+	font-size: 14px;
+	color: #333;
+}
+.detailPage .detailInfo .main .reviewContent .reviewCon .top .portrait .info .meta{
+	font-size: 12px;
+	color: #969696;
+}
+.detailPage .detailInfo .main .reviewContent .reviewCon .top .report{
+	display: none;
+	float:right;
+	position: relative;
+	color:#666;
+	font-size:14px;
+}
+
+.detailPage .detailInfo .main .reviewContent .reviewCon .commentContent{
+	font-size: 14px;
+	color:#333;
+	line-height: 20px;
+}
+.detailPage .detailInfo .main .reviewContent .reviewCon .interaction{
+	overflow: hidden;
+	height: 30px;
+	/*margin-bottom: 20px;*/
+}
+.detailPage .detailInfo .main .reviewContent .reviewCon .interaction span{
+	float:left;
+	font-size:14px;
+	color: #969696;
+	margin-right: 30px;
+	line-height:24px;
+	cursor: pointer;
+}
+.detailPage .detailInfo .main .reviewContent .reviewCon .interaction span:hover{
+	color: #333;
+}
+.detailPage .detailInfo .main .reviewContent .reviewCon .commentRely{
+	width:700px;
+	margin:15px 0;
+}
+.detailPage .detailInfo .main .loadMore{
+	width:100%;
+	height: 40px;
+	background-color:#e5e5e5;
+	text-align:center;
+	line-height:40px;
+	margin: 10px;
+	border-radius: 5px;
+	margin-left: 0px;
+}
+.detailPage .detailInfo .main .loadMore a{
+	display:block;
+	width: 100%;
+	height: 40px;
+	text-decoration:none;
+	color:#333;
+	font-size:18px;
+}
+.detailPage .detailInfo .main .loadMore a:hover{
+	background-color:#2196F3;
+	color: #FFF;
+};

@@ -1,0 +1,411 @@
+.App {
+    background: white;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot);
+    /* For IE6-8 */
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'), url(https://example.com/MaterialIcons-Regular.woff) format('woff'), url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+#DetialListCom {
+    width: 1170px;
+    height: 1270px;
+    margin: 0 auto;
+    border-top: 2px solid #249cff;
+    section {
+        width: 1170px;
+        height: 1030px;
+        position: relative;
+        margin-top: 40px;
+        .sectionList {
+            width: 800px;
+            height: auto;
+            float: left;
+            .sectionListContent {
+                width: 800px;
+                height: 200px;
+                .sectionImgBox {
+                    width: 60px;
+                    height: 200px;
+                    float: left;
+                    .sectionImg {
+                        width: 56px;
+                        height: 60px;
+                        text-align: center;
+                        line-height: 60px;
+                        img {
+                            width: 60px;
+                            height: 60px;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+                .sectionTxt {
+                    width: 730px;
+                    height: 200px;
+                    float: right;
+                    padding-left: 10px;
+                    .sectionTxtTop {
+                        width: 100%;
+                        height: 60px;
+                        line-height: 60px;
+                        .sectionTxtTopNav {
+                            width: 100%;
+                            height: 40px;
+                            .sectionTitle {
+                                // width: 60%;
+                                float: left;
+                                margin: 0;
+                                overflow: hidden;
+                                line-height: 40px;
+                                height: 40px;
+                                cursor: pointer;
+                            }
+                            .sectionTxtbottom {
+                                width: 100%;
+                                height: 30px;
+                                line-height: 30px;
+                                .sectionInfoLeft {
+                                    width: 50%;
+                                    height: 20px;
+                                    float: left;
+                                    li {
+                                        float: left;
+                                        height: 20px;
+                                        line-height: 20px;
+                                        color: gray;
+                                        font-size: 14px;
+                                        margin-right: 20px;
+                                    }
+                                }
+                                .sectionInfoRight {
+                                    width: 50%;
+                                    height: 20px;
+                                    float: right;
+                                    li {
+                                        float: right;
+                                        height: 20px;
+                                        line-height: 20px;
+                                        color: gray;
+                                        font-size: 14px;
+                                        margin-left: 30px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .sectionTxtMidDetail {
+                        width: 700px;
+                        margin-top: 10px;
+                        height: 100px;
+                        line-height: 26px;
+                        text-indent: 30px;
+                        overflow: auto;
+                        overflow-x: hidden;
+                    }
+                }
+            }
+            .detailLangue {
+                width: 100%;
+                height: 170px;
+                border: 1px solid gainsboro;
+                .FaultnewFormtop2 {
+                    width: 100%;
+                    height: 100px;
+                    padding-left: 26px;
+                    .commitNum {
+                        width: 100%;
+                        height: 20px;
+                        text-align: right;
+                        .commitNumtics {
+                            float: left;
+                            font-size: 16px;
+                            font-weight: 900;
+                            a {
+                                font-size: 14px;
+                                font-weight: 200;
+                                color: black;
+                                margin-left: 6px;
+                            }
+                        }
+                    }
+                    .newFormPlable {
+                        width: 80px;
+                        height: 80px;
+                        float: left;
+                        img {
+                            width: 80px;
+                            height: 80px;
+                            border-radius: 50%;
+                        }
+                    }
+                    .textareaFaultNew {
+                        width: 690px;
+                        float: right;
+                        height: 90px;
+                        border: 1px solid #dad4d4;
+                    }
+                }
+                .publicSubmit {
+                    width: 100%;
+                    height: 80px;
+                    .sectionBtn {
+                        float: right;
+                        width: 200px;
+                        height: 40px;
+                        display: block;
+                        .sectionBtn1 {
+                            background: #179BD7;
+                            color: white;
+                            width: 60px;
+                            height: 30px;
+                            line-height: 30px;
+                            border-radius: 2px;
+                            border: none;
+                            float: right;
+                            margin-top: 4px;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .comdetialList {
+            width: 100%;
+            height: 600px;
+            //          overflow: auto;
+            margin-top: 30px;
+            //          border: 1px solid gray;
+            .comdetialListTitle {
+                height: 40px;
+                width: 100%;
+                line-height: 40px;
+                font-size: 16px;
+                border-bottom: 1px solid gainsboro;
+                .sectionBtnNav {
+                    float: right;
+                    width: 300px;
+                    height: 40px;
+                    display: block;
+                    button {
+                        background: white;
+                        width: 90px;
+                        height: 30px;
+                        font-size: 14px;
+                        line-height: 30px;
+                        border-radius: 2px;
+                        border: none;
+                        float: right;
+                        margin-left: 4px;
+                    }
+                    .sectionBtn1 {
+                        color: #249cff;
+                    }
+                }
+            }
+            //回复list
+            .sectionListContentHuiFu {
+                width: 780px;
+                height: 180px;
+                border-bottom: 1px solid #e5e5e5;
+                margin-top: 16px;
+                .sectionTxtHuifu {
+                    width: 800px;
+                    height: 180px;
+                    float: right;
+                    .sectionTxtTop2Huifu {
+                        width: 100%;
+                        height: 60px;
+                        line-height: 60px;
+                        .sectionImgBoxHuifu {
+                            width: 60px;
+                            height: 60px;
+                            float: left;
+                            margin-left: 80px;
+                            .sectionImgHuifu {
+                                width: 56px;
+                                height: 60px;
+                                text-align: center;
+                                line-height: 60px;
+                                img {
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+                        .sectionInfoHuifu {
+                            width: 630px;
+                            height: 16px;
+                            float: right;
+                            margin-top: 12px;
+                            display: block;
+                            li {
+                                height: 16px;
+                                margin-bottom: 10px;
+                                line-height: 16px;
+                                font-size: 12px;
+                                margin-right: 30px;
+                                //                              i{
+                                //                                  cursor: pointer;
+                                //                              }
+                            }
+                        }
+                    }
+                    .sectionTxtMid2Huifu {
+                        width: 800px;
+                        height: 80px;
+                        line-height: 26px;
+                        text-indent: 30px;
+                        margin-top: 10px;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                        overflow: hidden;
+                    }
+                    .sectionTxtbottom2Huifu {
+                        width: 100%;
+                        height: 20px;
+                        //                      height: auto;
+                        line-height: 30px;
+                        .sectionInfoHuifu {
+                            width: 100%;
+                            height: 20px;
+                            li {
+                                float: left;
+                                height: 20px;
+                                line-height: 20px;
+                                color: gray;
+                                width: 110px;
+                                font-size: 14px;
+                                margin-left: 30px;
+                                i {
+                                    float: left;
+                                    cursor: pointer;
+                                }
+                                span {
+                                    width: 80px;
+                                    height: 20px;
+                                    line-height: 24px;
+                                    display: block;
+                                    float: right;
+                                }
+                            }
+                            .replyCountBtnHuifu {
+                                display: inline-block;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+            // 回复评论框
+            .textareaReolyBox {
+                width: 800px;
+                height: 120px;
+                position: fixed;
+                background: gainsboro;
+                border: 1px solid #e5e5e5;
+                bottom: 0;
+                z-index: 999;
+                    left: initial;
+                display: none;
+                .textareaReoly {
+                    width: 100%;
+                    height: 80px;
+                }
+                .publicSubmitReoly {
+                    width: 100%;
+                    height: 40px;
+                    .sectionBtnReoly {
+                        float: right;
+                        width: 200px;
+                        height: 40px;
+                        display: block;
+                        .sectionBtn1Reoly {
+                            background: #249cff;
+                            color: white;
+                            width: 60px;
+                            height: 30px;
+                            line-height: 30px;
+                            border-radius: 2px;
+                            border: none;
+                            float: right;
+                            margin-top: 4px;
+                            margin-left: 10px;
+                        }
+                        /////
+                        //                      button {
+                        //                      background: white;
+                        //                      width: 90px;
+                        //                      height: 30px;
+                        //                      font-size: 14px;
+                        //                      line-height: 30px;
+                        //                      border-radius: 2px;
+                        //                      border: none;
+                        //                      float: right;
+                        //                      margin-left: 4px;
+                        //                  }
+                        //                  .sectionBtn1 {
+                        //                      color: #249cff;
+                        //                  }
+                        ///
+                    }
+                }
+            }
+            .pageCommunityNum {
+                margin-top: 90px;
+            }
+        }
+        article {
+            width: 340px;
+            height: 1430px;
+            float: right;
+            .artcleLogIn {
+                width: 240px;
+                background: #d9edf7;
+                height: auto;
+                padding: 20px 8px;
+                overflow: hidden;
+                white-space: nowrap;
+                -o-text-overflow: ellipsis;
+                text-overflow: ellipsis;
+                .artcleRight{
+                    .artcleName{
+                    
+                    }
+                         #datailOthersTic {
+                    padding: 4px 0;
+                    .artcleNameList {
+                        margin-left: 20px;
+                        li {
+                            display: block;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            -o-text-overflow: ellipsis;
+                            text-overflow: ellipsis;
+                            a {
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                }
+               
+            }
+        }
+    }
+    .footerCommunity {
+        height: 200px;
+        width: 100%;
+        background: grey;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+}

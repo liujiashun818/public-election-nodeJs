@@ -1,0 +1,212 @@
+/*写作页面*/
+
+
+@bgColor: #fbfcf7;
+@fontFamily: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+@borderColor: #EBEFF2;
+
+
+#WritePage{
+  position: absolute;
+  top:0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#editorWrap{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+}
+
+
+/*编辑区*/
+#richEditor{
+  position: relative;
+  overflow-y:auto;
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+  z-index: 2;
+  top:0;
+  bottom: 3px;
+}
+/*md编辑区*/
+#mdEditor{
+  position: relative;
+  overflow-y:auto;
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+  z-index: 2;
+  top:0;
+  bottom: 3px;
+}
+
+/*------------------编辑器工具栏----------------*/
+#ebook-toolbar{
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  background-color: @bgColor;
+  border: none;
+  box-shadow: 0 3px 10px #eee;
+  #mceToolbar,#mdToolbar{
+    position: absolute;
+    right: 40px;
+    left: 110px;
+    padding-top: 5px;
+  }
+  #moreBtn {
+    position: absolute;
+    cursor: pointer;
+    right: 5px;
+    padding: 3px 10px;
+    padding-top: 10px;
+  } 
+  .buttonContainer{
+    position: absolute;
+    height: 27px;
+    left:0;
+    top:0;
+    margin: 10px 10px 3px;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    i{
+      margin: 5px;
+      cursor:pointer;
+    }
+  }
+}
+
+/* 编辑器工具 需要important, 因为mce还要有js加载css, 肯定在此之后 */
+/*加高, 之前显得拥挤*/
+
+.mce-btn-small button {
+    padding: 5px 5px !important;
+    line-height: 20px !important;
+}
+
+.mce-btn {
+  background-color: @bgColor !important;
+  overflow: hidden;
+  button {
+    span {
+      // windows, linux下有滚动
+      overflow: hidden;
+    }
+  }
+}
+
+.mce-menubtn.mce-btn-small span {
+    line-height: 20px !important;
+}
+
+.mce-btn span {
+    font-family: @fontFamily !important;
+}
+
+.mce-primary button,
+.mce-primary button i {
+    text-shadow: none;
+}
+
+.mce-primary {
+    background-color: #47a447 !important;
+    border-color: #398439 !important;
+}
+
+.mce-menu-item:hover,
+.mce-menu-item.mce-selected,
+.mce-menu-item:focus {
+    background-color: @borderColor;
+    span {
+        color: #000 !important;
+    }
+}
+
+// 下拉选中
+.mce-menu-item-normal.mce-active {
+    background-color: @borderColor;
+}
+
+// tool的分隔
+.tool-split {
+    display: inline-block;
+    line-height: 25px;
+    color: #ddd;
+}
+
+.mce-menubtn.mce-fixed-width.mce-btn-small span {
+  width: 80px;
+}
+.mce-menubtn.mce-btn-small span {
+  font-size: 12px;
+}
+.mce-panel{
+  background-color:@bgColor !important;
+}
+
+// 为了滚动条能拖动
+.pren-tool {
+  right: 6px;
+}
+
+/* 工具栏根据窗口宽度自动响应*/
+#mceToolbar{
+  table {
+    max-width:none; /* Bug in computation of fullscreen */
+  }
+  .mce-tinymce{
+    width:100% !important;    
+  }
+  table.mceLayout {
+    width:100% !important;
+    height:auto !important;
+  }
+  .mce-abs-layout, .mce-abs-layout>div, .mce-stack-layout{
+    width:100% !important;  
+  }
+  .mce-btn-group { float:left; }
+  .mce-toolbar>div {
+    white-space:normal;
+  }
+}
+
+/*Markdown 工具栏*/
+/*
+#mdEditor .navbar-default, 
+#wmd-button-bar {
+  height: 40px !important;
+  padding: 5px 0;
+}
+#mdEditor .navbar-default,
+#wmd-button-bar {
+  overflow: visible;
+}
+#mdEditor {
+  .extension-preview-buttons, .layout-wrapper-l3 {
+    top: 45px !important;
+  }
+}
+#left-column, #right-column, #mdSplitter {
+  top: 3px;
+}
+#wmd-input > .editor-content, .preview-container {
+  font-size: 16px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+*/
+
+/* 新建按钮*/
+.floatNewButton{
+  position: absolute;
+  bottom: 80px;
+  height: 100px;
+  width: 50px;
+  z-index: 1000;
+}

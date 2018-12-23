@@ -1,0 +1,33 @@
+#MyCenterHomeId *{
+    font-family: "MicrosoftYaHei Regular";
+    font-size: 16px;
+}
+
+.myCenterActive{
+    border-bottom: 2px solid rgb(36, 156, 255);
+}
+
+#MyCenterHomeId .pagination{
+    margin-left: 120px;
+}
+
+.compile_icon{
+    display: none
+}
+
+.compile_icon_active{
+    display: block
+}
+
+input::-webkit-input-placeholder{  
+    font-size: 16px;
+    text-indent: 5px;
+}
+input::-moz-placeholder{
+    font-size: 16px;
+    text-indent: 5px;
+}
+input::-ms-input-placeholder{
+    font-size: 16px;
+    text-indent: 5px;
+}

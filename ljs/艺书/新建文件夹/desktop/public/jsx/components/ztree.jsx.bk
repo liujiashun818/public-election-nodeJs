@@ -1,0 +1,177 @@
+require('zbase');
+require('zTreeStyle');
+require('zmetroStyle');
+
+nodeRequire('babel-polyfill');
+import React from 'react';
+import { render } from 'react-dom';
+const Promise = nodeRequire('bluebird');
+const co = Promise.coroutine;
+const jsdk = nodeRequire('js-sdk');
+var xdesktop = nodeRequire('xdesktop-render');
+var Db = xdesktop.db;
+var Logic = xdesktop.logic;
+var Tools = xdesktop.tools;
+
+var zNodes,
+    curMenu, 
+    zTree_Menu;
+
+var setting = {
+  view: {
+    showLine: true,
+    showIcon: false,
+    selectedMulti: false,
+    dblClickExpand: false
+  },
+  data: {
+    simpleData: {
+      enable: true
+    }
+  },
+  callback: {
+    beforeClick: beforeClick,
+    onClick: zTreeOnClick,
+    onDrop: zTreeOnDrop,
+    onRename: zTreeOnRename,
+    onRemove: zTreeOnRemove,
+    beforeRemove: zTreeBeforeRemove
+  },
+  edit: {
+    drag:{
+      isCopy: false,
+      isMove: true,
+      prev: true,
+      inner: true,
+      next: true
+    },
+    enable: true,
+    removeTitle: '删除此项',
+    renameTitle: '重命名'
+	},
+};
+
+function beforeClick(treeId, treeNode) {
+  if (treeNode.level == 0 ) {
+    var zTree = $.fn.zTree.getZTreeObj("ztreeEntity");
+    zTree.expandNode(treeNode);
+  }
+  return true;
+}
+
+function zTreeOnClick(event, treeId, treeNode) {
+  var node = {
+    _id: treeNode._id,
+    CreatedTime: treeNode.CreatedTime,
+    name: treeNode.name
+  };
+  console.log(node);
+}
+
+function zTreeOnDrop(event, treeId, treeNodes, targetNode, moveType) {
+  var treeObj = $.fn.zTree.getZTreeObj("ztreeEntity");
+  var nodes = treeObj.getNodes();
+  Db.SaveArticlebookLists(Tools.pullout(nodes));
+}
+
+function zTreeOnRename(event, treeId, treeNode, isCancel) {
+  var treeObj = $.fn.zTree.getZTreeObj("ztreeEntity");
+  var nodes = treeObj.getNodes();
+  Db.SaveArticlebookLists(Tools.pullout(nodes));
+}
+
+function zTreeOnRemove(event, treeId, treeNode) {
+  var treeObj = $.fn.zTree.getZTreeObj("ztreeEntity");
+  var nodes = treeObj.getNodes();
+  Db.SaveArticlebookLists(Tools.pullout(nodes));
+	Db.DeleteArticlebooks(Tools.collect([treeNode]));
+}
+
+function zTreeBeforeRemove(treeId, treeNode) {
+	return confirm('确定要删除吗');
+}
+
+var Ztree = React.createClass({
+  render() {
+    var me = this
+    setImmediate(function(){
+      var treeObj = $("#ztreeEntity");
+      var nodes = me.state.zNodes;
+      //console.log(nodes);
+			$.fn.zTree.init(treeObj, setting, nodes);
+			zTree_Menu = $.fn.zTree.getZTreeObj("ztreeEntity");
+      if(nodes.length) {
+        curMenu = zTree_Menu.getNodes()[0];
+			  zTree_Menu.selectNode(curMenu);
+      }
+
+			treeObj.hover(function () {
+				if (!treeObj.hasClass("showIcon")) {
+					treeObj.addClass("showIcon");
+				}
+			}, function() {
+				treeObj.removeClass("showIcon");
+			});
+    });
+    return (
+        // <button class={"sign-up-button d3-button"} label="创建">创建</button>
+        <div className={"zTreeDemoBackground left"}>
+          <ul id="ztreeEntity" className={"ztree"}></ul>
+        </div>
+    );
+  },
+  getInitialState() {
+    var me = this;
+    var hco = co(function* () {
+      yield Logic.init.initGlobalAsync();
+      return yield Db.GetArticlebookListsAsync();
+    });
+    hco().then(function(list) {
+      zNodes = list
+      me.setState({ zNodes: list });
+    }).catch(function(e){
+      console.error(e);
+    });
+    return { zNodes: [] };
+  },
+});
+
+module.exports = Ztree;
+
+// TODO del
+render(
+    <Ztree>
+    </Ztree>,
+    $('div.zcontent_wrap')[0]
+);
+
+
+// var zNodes_ =[
+//   {name: "文件夹", children: [
+//     {name: "图书", 
+//       children: [
+//         {name: "小学数学",
+//           children: [
+//             { name: '小学一年级' },
+//             { name: '小学二年级' },
+//             { name: '小学三年级' },
+//             { name: '小学四年级' },
+//             { name: '小学五年级' },
+//             { name: '小学六年级' }
+//           ]
+//         },
+//         {name: "小学语文",
+//           children: [
+//             { name: '小学一年级' },
+//             { name: '小学二年级' },
+//             { name: '小学三年级' },
+//             { name: '小学四年级' },
+//             { name: '小学五年级' },
+//             { name: '小学六年级' }
+//           ]
+//         }
+//       ]
+//     },
+//     {name: "绘画"}
+//   ]}
+// ];

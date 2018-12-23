@@ -1,0 +1,463 @@
+  html,body{border:0px;line-height:1.5;margin:0%;padding:0%;
+  font-family: "Fakt",AvenirNext-Medium,"Microsoft YaHei","Segoe UI",sans-serif;
+  color: #fff;
+  font-size: 12px;
+  margin:0; height:100%;
+  }
+  body{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size:cover;
+      background-image: url(../../images/log-bk.png);
+  }
+
+*{
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /*font-family: "Fakt",AvenirNext-Medium,"Microsoft YaHei","Segoe UI",sans-serif;*/
+  font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
+}
+
+.logo {
+  vertical-align:middle;
+}
+
+.launch-splash{
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
+}
+
+.foreground, .splash-forms{
+  z-index: 1;
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+}
+
+input{
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border: 2px inset;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+button{
+  opacity: .95;
+  -webkit-appearance: none;
+  outline: none;
+  padding: 0 20px;
+  border: 1px solid #444;
+  color: #000;
+  background: #fff;
+  font-weight: 500;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border-radius: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 50px;
+  height: 50px;
+  color: #fff;
+  -webkit-tap-highlight-color: rgba(0,255,0,0);
+}
+
+[role="button"], button, input[type="submit"] {
+    font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
+    cursor: pointer;
+}
+
+.show-tips{
+  /*display: inline-block;
+  background-color: #b2b2b2;
+  opacity:0.8;*/
+  color:#F44336;
+  font-weight:bold;
+  width:auto;
+  z-index:20;
+  /*position:absolute;
+  right:0;
+  bottom:0;*/
+  margin: 5px 0;
+  font-size:14px;
+}
+
+.button {
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 20px;
+    border: 1px solid #444;
+    color: #000;
+    background: #fff;
+    font-size: 14px;
+    line-height: 28px;
+    height: 30px;
+    font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
+    font-weight: 500;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.d3-button:active{
+  -webkit-transform:scale3d(.99,.98,1);
+  transform:scale3d(.99,.98,1);
+}
+.d3-button{
+  height: 40px;
+  color: white;
+}
+.sign-up-link{
+  position: absolute;
+  font-size: 14px;
+  top: 20px;
+  left: 5px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.button.stroked {
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    line-height: 38px;
+    border: 1px solid #fff;
+    margin-left: 15px;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.button.stroked:hover{
+  color: #000;
+  background-color: rgba(255,255,255,1);
+}
+
+.sign-up-link {
+  z-index: 5;
+}
+
+.text-input {
+    -webkit-appearance: none;
+    outline: none;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    height: 50px;
+    margin: 0;
+}
+
+.splash-header, .splash-subheader{
+  text-align: center;
+}
+
+.splash-header{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.splash-subheader{
+  font-weight: normal;
+}
+
+.webchat-connect{
+  position: relative;
+  width:100%;
+  background: #3B5999;
+  border: none;
+}
+
+.webchat-connect svg{
+  position: absolute;
+}
+
+.count-connect{
+  position: relative;
+  background: transparent;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.sign-up-field{
+  margin: 0;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.splash-forms .sign-up-field:not(:last-child) {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.sign-up-field .text-input{
+  width: 100%;
+  -webkit-appearance: none;
+  border-radius: 0;
+  border: none;
+}
+
+.sign-up-field .hint{
+  display: block;
+  width: 100%;
+  padding: 0 0 5px 10px;
+  background-color: #fff;
+  color: #999;
+}
+
+.sign-up-field .sign-up-error{
+  display: block;
+  width: 100%;
+  padding: 0 0 5px 10px;
+  background-color: #fff;
+  color: #f00;
+}
+
+.sign-up-button, .signin-button{
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 0;
+  background-color: #09c;
+  border: none;
+  opacity: 1;
+}
+.step-title{
+  position: relative;
+  background: transparent;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.step-warning{
+  position: relative;
+  background: transparent;
+  text-align: left;
+  font-size: 14px;
+  width: 100%;
+  display: block;
+  color: #FF9800;
+}
+
+.step-button{
+  width: 40%;
+  margin: 20px 5%;
+  border-radius: 0;
+  background-color: #09c;
+  border: none;
+  opacity: 1;
+}
+
+.policy, .forgot-link{
+  text-align: center;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.policy a, .forgot-link a{
+  text-decoration: underline;
+}
+
+.bottom-links {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.bottom-links a{
+  cursor: pointer;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/*媒体查询部分*/
+@media (min-width:521px) {
+  .foreground{
+    margin: 0 auto;
+    width: 500px;
+  }
+}
+
+@media (max-width:520px) {
+  .foreground{
+    width: 96%;
+    margin: 0 2%;
+  }
+}
+
+@media (min-width:357px){
+  .splash-forms{
+    margin: 0 auto;
+    width: 342px;
+  }
+}
+
+@media (max-width:356px) {
+  .splash-forms{
+    width: 96%;
+    margin: 0 2%;
+  }
+}
+
+@media (min-width:1281px){
+  .splash-header {
+    line-height: 35px;
+    font-size: 30px;
+  }
+  .splash-subheader {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .count-connect{
+    font-size: 14px;
+    line-height: 50px;
+  }
+  .webchat-connect svg{
+    left: 10px;
+    top: 13px;
+  }
+  .sign-up-field .hint, .sign-up-field .sign-up-error{
+    font-size: 12px;
+  }
+  .policy{
+    font-size: 12px;
+  }
+  .forgot-link{
+    font-size: 14px;
+  }
+}
+
+@media(max-width:1280px){
+  .splash-header {
+    line-height: 35px;
+    font-size: 24px;
+  }
+  .splash-subheader {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  button{
+    font-size: 12px;
+    line-height: 40px;
+    height: 40px;
+  }
+  .count-connect{
+    font-size: 12px;
+    line-height: 40px;
+  }
+  .sign-up-field .text-input{
+    font-size: 12px;
+    height: 40px;
+  }
+  .webchat-connect svg{
+    left: 10px;
+    top: 8px;
+  }
+  .sign-up-field .hint, .sign-up-field .sign-up-error{
+    font-size: 10px;
+  }
+  .policy{
+    font-size: 10px;
+  }
+  .forgot-link{
+    font-size: 12px;
+  }
+}
+
+#cnzz_stat_icon_1258168407 img{
+  display:none;
+  width: 0px;
+}
+
+/*增加css3关闭按钮*/
+.sign-close-Btn{
+  position: absolute;
+  font-size: 14px;
+  top: 20px;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  font-weight: 500;
+  color: #fff;
+  z-index: 5;
+}
+
+.close {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.close:hover::before, .close:hover::after {
+  background: #1ebcc5;
+}
+.close::before, .close::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  background: #fff;
+  border-radius: 5px;
+}
+.close::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.drag-region{
+  position: absolute;
+  top: 0;
+  left: 100px;
+  right: 50px;
+  height: 80px;
+  z-index: 1;
+  -webkit-app-region: drag;
+}

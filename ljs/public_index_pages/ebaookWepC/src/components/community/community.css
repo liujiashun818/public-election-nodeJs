@@ -1,0 +1,474 @@
+#Community {
+  width: 100%;
+  height: auto;
+  background: whitesmoke;
+}
+#Community .comCenter {
+  width: 960px;
+  /* height: 1580px; */
+  margin: 0 auto;
+}
+#Community .comCenter .section {
+  width: 960px;
+   height: 1590px; 
+  position: relative;
+}
+#Community .comCenter .section .sectionList {
+  /* width: 660px; */
+  height: auto;
+  float: left;
+}
+#Community .comCenter .section .sectionList .sectionListTop {
+  /* width: 810px; */
+  border-bottom: 2px solid #249cff;
+  height: 52px;
+  margin-bottom: 15px;
+}
+#Community .comCenter .section .sectionList .sectionListTop ul {
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 18px;
+}
+#Community .comCenter .section .sectionList .sectionListTop ul .sectionli {
+  float: left;
+  width: 110px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 16px;
+}
+#Community .comCenter .section .sectionList .sectionListTop ul .sectionliColor {
+  color: black;
+  border-bottom: 2px solid #249cff;
+}
+#Community .comCenter .section .sectionList .sectionListContent {
+  width: 660px;
+  height: 160px;
+  border-bottom: 1px solid #f8f8f8;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionImgBox {
+  float: left;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionImgBox .sectionImg {
+  text-align: center;
+  line-height: 60px;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionImgBox .sectionImg img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 20px;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt {
+  /* width: 738px;
+  height: 160px; */
+  float: right;
+  width: 560px;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop {
+  width: 100%;
+  height: 15px;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav {
+  width: 100%;
+  /* height: 40px; */
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav .sectionTitle {
+  /* width: 600px; */
+  float: left;
+  margin: 0;
+  line-height: 25px; 
+  height: 25px; 
+  cursor: pointer;
+  font-size: 16px;
+  color: #333333;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  font-weight: bold;
+}
+.change {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: -3px;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav .value1 {
+  /* display: none; */
+  font-size: 16px;
+  color: #ff5826;
+  text-decoration:none;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav .change .n1 {
+  height: 30px;
+  display: inline-block;
+  color: #ff5826;
+  /* display: none; */
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav .PurseMap {
+  margin-top: -7px;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav:hover {
+  text-decoration:none;
+  /* display: inline; */
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav .sectionBtn {
+  float: right;
+  /* width: 200px; */
+  /* height: 40px; */
+  display: block;
+  margin-right: 20px;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtTop .sectionTxtTopNav .sectionBtn .sectionBtn1 {
+  background: white;
+  color: #ff3030;
+  width: 44px;
+  height: 20px;
+  line-height: 16px;
+  border-radius: 5px;
+  border: 1px solid #ff3030;
+  float: right;
+  margin-left: 10px;
+  font-size: 12px;
+  outline: none;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtMid {
+  width: 560px;
+  height: 50px;
+  line-height: 26px;
+  font-size: 14px;
+  color: #333333;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 15px 0px;
+  cursor: default;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtbottom {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtbottom .sectionInfoLeft {
+  /* width: 390px; */
+  height: 20px;
+  float: left;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtbottom .sectionInfoLeft li {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  color: gray;
+  font-size: 14px;
+  margin-right: 10px;
+  /* width: 113px; */
+  min-width: 80px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: default;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtbottom .sectionInfoRight {
+  /* width: 210px; */
+  height: 20px;
+  float: right;
+  margin-right: 20px;
+}
+#Community .comCenter .section .sectionList .sectionListContent .sectionTxt .sectionTxtbottom .sectionInfoRight li {
+  float: right;
+  height: 20px;
+  line-height: 20px;
+  color: gray;
+  font-size: 14px;
+  margin-left: 15px;
+}
+#Community .comCenter .section article {
+  width: 280px;
+  height: 1430px;
+  float: right;
+}
+#Community .comCenter .section article .artcleLogIn {
+  /* width: 340px; */
+  background: white;
+  border-color: #bce8f1;
+  line-height: 116px;
+  margin-top: 50px;
+  border: 1px solid gainsboro;
+}
+#Community .comCenter .section article .artcleLogIn .widget_search {
+  padding: 12px 12px;
+}
+#Community .comCenter .section article .artcleLogIn .widget_search .artcleLonInTop {
+  /* width: 300px; */
+  height: 60px;
+  overflow: hidden;
+  clear: both;
+}
+#Community .comCenter .section article .artcleLogIn .widget_search .artcleLonInTop .artcleImg {
+  width: 50px;
+  line-height: 50px;
+  float: left;
+  text-align: center;
+}
+#Community .comCenter .section article .artcleLogIn .widget_search .artcleLonInTop .artcleImg #reponseimageId {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+#Community .comCenter .section article .artcleLogIn .widget_search .artcleLonInTop .artcleRight {
+  width: 185px;
+  height: 60px;
+  float: right;
+  /* padding-left: 15px; */
+}
+#Community .comCenter .section article .artcleLogIn .widget_search .artcleLonInTop .artcleRight .artcleRightInfo {
+  width: 140px;
+  height: 50px;
+  float: left;
+  margin-top: 6px;
+}
+#Community .comCenter .section article .artcleLogIn .widget_search .artcleLonInTop .artcleRight .artcleRightInfo .artcleName {
+  line-height: 25px;
+  height: 25px;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #333333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 120px;
+}
+#Community .comCenter .section article .artcleLogIn .widget_search .artcleLonInTop .artcleRight .artcleRightInfo .artcleNameList {
+  width: 100%;
+  height: 25px;
+}
+#Community .comCenter .section article .artcleLogIn .widget_search .artcleLonInTop .artcleRight .artcleRightInfo .artcleNameList li {
+  width: 70px;
+  line-height: 25px;
+  list-style: none;
+  float: left;
+}
+#Community .comCenter .section article .artcleLogIn .widget_search .artcleLonInTop .artcleRight .artcleRightInfo .artcleNameList li span a {
+  color: #666666;
+}
+#Community .comCenter .section article .artcleLogIn .widget_search .artcleLonInTop .artcleRight #artcleBtn {
+  background: #249cff;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  margin: -30px 0px 0px 112px;
+  border-radius: 6px;
+  display: block;
+  /* margin-left: 16px; */
+  border: none;
+  outline: none;
+}
+#Community .comCenter .section article .artcleLogIn .widget_search .artcleLonInTop .artcleRight #artcleBtn a {
+  color: white;
+}
+#Community .comCenter .section article .sheQuHotTic {
+  width: 280px;
+  position: relative;
+  background: white;
+  border-color: #bce8f1;
+  line-height: 116px;
+  margin-top: 49px;
+  height: auto;
+  padding: 10px 20px;
+  border: 1px solid gainsboro;
+}
+#Community .comCenter .section article .sheQuHotTic .lineHrHot {
+  width: 100%;
+  height: 2px;
+  padding: 0;
+  margin: 0;
+  background: #249cff;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+#Community .comCenter .section article .sheQuHotTic .sheQuHotTicMid {
+  /* width: 300px; */
+  height: 100%;
+}
+#Community .comCenter .section article .sheQuHotTic .sheQuHotTicMid p {
+  height: 40px;
+  line-height: 40px;
+  /* width: 300px; */
+  margin: 0;
+}
+#Community .comCenter .section article .sheQuHotTic .sheQuHotTicMid p .hotTicTopTxtHodred {
+  float: left;
+  font-size: 16px;
+  color: #ff4e4e;
+  font-weight: 800;
+}
+#Community .comCenter .section article .sheQuHotTic .sheQuHotTicMid p .hotTicTopTxt {
+  float: left;
+  font-size: 16px;
+  font-weight: 800;
+}
+#Community .comCenter .section article .sheQuHotTic .sheQuHotTicMid p .hotTicMore {
+  float: right;
+  color: #179BD7;
+  font-size: 14px;
+}
+#Community .comCenter .section article .sheQuHotTic .sheQuHotTicMid .sheQuHotTicMidListBox {
+  /* width: 300px; */
+  height: 160px;
+}
+#Community .comCenter .section article .sheQuHotTic .sheQuHotTicMid .sheQuHotTicMidListBox .sheQuHotTicMidList {
+  /* width: 300px; */
+  height: 30px;
+  line-height: 30px;
+}
+#Community .comCenter .section article .sheQuHotTic .sheQuHotTicMid .sheQuHotTicMidListBox .sheQuHotTicMidList .sheQuHotTicMidListLine {
+  width: 195px;
+  height: 30px;
+  float: left;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#Community .comCenter .section article .sheQuHotTic .sheQuHotTicMid .sheQuHotTicMidListBox .sheQuHotTicMidList .sheQuHotTicMidListLine .sheQuHotTicMidListLine1 {
+  color: #ff0b0b;
+}
+#Community .comCenter .section article .sheQuHotTic .sheQuHotTicMid .sheQuHotTicMidListBox .sheQuHotTicMidList .sheQuHotTicMidListLine .sheQuHotTicMidListLine2 {
+  color: #ff521d;
+}
+#Community .comCenter .section article .sheQuHotTic .sheQuHotTicMid .sheQuHotTicMidListBox .sheQuHotTicMidList .sheQuHotTicMidListLine .sheQuHotTicMidListLine3 {
+  color: #ff7e28;
+}
+#Community .comCenter .section article .sheQuHotTic .sheQuHotTicMid .sheQuHotTicMidListBox .sheQuHotTicMidList .sheQuHotTicMidListLine a {
+  margin-right: 6px;
+  color: black;
+}
+#Community .comCenter .section article .sheQuHotTic .sheQuHotTicMid .sheQuHotTicMidListBox .sheQuHotTicMidList .sheQuHotNum {
+  float: right;
+  /* width: 100px; */
+  display: block;
+  line-height: 30px;
+  text-align: right;
+}
+#Community .comCenter .pageCommunityNum {
+  height: 60px;
+  width: 100%;
+}
+#Community .comCenter .pageCommunityNum .pagination {
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  width: 600px;
+  height: 100%;
+}
+#Community .footerCommunity {
+  height: 200px;
+  width: 100%;
+  background: grey;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.publicTxt {
+  border-top: 2px solid #179BD7;
+  width: 100%;
+  height: 100%;
+}
+.publicTxt #publicTxtForm {
+  width: 1130px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 1px solid gainsboro;
+  padding-left: 40px;
+}
+.publicTxt #publicTxtForm .titleH {
+  height: 40px;
+  line-height: 20px;
+  text-align: left;
+}
+.publicTxt #publicTxtForm .FaultnewFormtop1 {
+  width: 100%;
+  height: 100px;
+}
+.publicTxt #publicTxtForm .FaultnewFormtop1 .FaultnewFormtopList {
+  width: 100%;
+  line-height: 40px;
+  height: 40px;
+}
+.publicTxt #publicTxtForm .FaultnewFormtop1 .FaultnewFormtopList label {
+  line-height: 28px;
+  width: 80px;
+  font-size: 14px;
+  float: left;
+  font-weight: 500;
+}
+.publicTxt #publicTxtForm .FaultnewFormtop1 .FaultnewFormtopList label b {
+  color: red;
+  float: right;
+}
+.publicTxt #publicTxtForm .FaultnewFormtop1 .FaultnewFormtopList .FaultnewFormtopListTitle {
+  height: 28px;
+  width: 800px;
+}
+.publicTxt #publicTxtForm .FaultnewFormtop1 .FaultnewFormtopList .selectBg {
+  background-size: 28px 28px;
+  width: 268px;
+  height: 28px;
+  line-height: 28px;
+}
+.publicTxt #publicTxtForm .FaultnewFormtop2 {
+  width: 100%;
+  height: 224px;
+  margin-top: 16px;
+}
+.publicTxt #publicTxtForm .FaultnewFormtop2 .newFormPlable {
+  line-height: 28px;
+  width: 80px;
+  font-size: 14px;
+  float: left;
+  font-weight: 500;
+}
+.publicTxt #publicTxtForm .FaultnewFormtop2 .newFormPlable b {
+  color: red;
+  float: right;
+}
+.publicTxt #publicTxtForm .FaultnewFormtop2 .textareaFaultNew {
+  width: 800px;
+  height: 200px;
+  border: 1px solid gray;
+}
+.publicTxt #publicTxtForm .publicSubmit {
+  width: 100%;
+  height: 80px;
+}
+.publicTxt #publicTxtForm .publicSubmit #artcleBtn {
+  background: #179BD7;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 6px;
+  border: none;
+  float: right;
+  margin-top: 18px;
+  margin-right: 206px;
+}
+.publicTxt #publicTxtForm .publicSubmit #artcleBtn a {
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.sheQuHotTicMidListBox span{
+  color: #333333;
+}
+/*# sourceMappingURL=community.css.map */

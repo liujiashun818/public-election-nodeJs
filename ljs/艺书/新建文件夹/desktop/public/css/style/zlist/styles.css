@@ -1,0 +1,133 @@
+.d3-button:active{
+  -webkit-transform:scale3d(.99,.98,1);
+  transform:scale3d(.99,.98,1);
+}
+
+.article-new-button{
+  width: 100%;
+  /*margin: 10px 0;*/
+  border-radius: 0;
+  background-color: #09c;
+  border: none;
+  opacity: 1;
+  color: #2196f3;
+  box-shadow: 0 1px 1px #aaa;
+}
+
+button{
+  opacity: .95;
+  -webkit-appearance: none;
+  outline: none;
+  padding: 0 20px;
+  border: 1px solid #444;
+  color: #000;
+  background: #fff;
+  font-weight: 500;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border-radius: 0;
+  text-align: center;
+  color: #fff;
+  -webkit-tap-highlight-color: rgba(0,255,0,0);
+  font-size: 12px;
+  line-height: 40px;
+  height: 40px;
+}
+[role="button"], button, input[type="submit"] {
+    font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
+    cursor: pointer;
+}
+.arlist-container{
+  position: absolute;
+  margin: auto;
+  width: 253px;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  bottom: 0px;
+  background: #fff;
+}
+.arlist .arlist-item{
+  border: 1px solid #E3E3E3; 
+  margin-bottom: 3px;
+  background: #fff;
+  
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+.arlist-item {
+  padding-top:15px;
+}
+
+.arlist-item:hover{
+  background: #eff8fe
+}
+
+.arlist .arimg {
+  width:15%;
+  float:left;
+  font-size:0;
+  text-align:center;
+}
+.arlist .arimg img {
+  max-width:90%;
+  pointer-events: none;
+}
+
+.arlist .arblock {
+  float:right;
+  width:85%;
+}
+.arlist .arblock p {
+  margin:0;
+  padding:0 15px 5px 0;
+}
+.arbox{
+  float:left;
+  width:100%;
+}
+div.artext-shadow{
+  position: absolute;
+  text-shadow:1px 1px 1px #fff;
+  overflow-y:auto;
+  bottom: 3px;
+  overflow-x:hidden;
+  left: 0;
+  right: 0;
+  top: 2px;
+}
+.arleft, .arright{float:left}
+.arblock {
+  width:840px;
+  display:block;
+}
+.ardate{
+  float:right;
+  color:#bfbfbf;
+  font-size: 12px;
+}
+.artitle {
+  font-size:16px;
+  color:#f03800;
+  font-family: Arial,Helvetica,sans-serif;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ardesc{width:100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+.arlike {
+  color:#440e00;
+}
+.arblock p{
+  cursor: default;
+  -webkit-user-select: none;
+}

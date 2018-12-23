@@ -1,0 +1,45 @@
+.DS_Store
+.settings
+.project
+.bin
+
+config.codekit
+.codekit-cache
+*.codekit
+min
+
+/dist
+/nw
+/atom
+tinymce_old
+
+/dev/node_modules
+public/js/build
+Debug
+__publish
+
+# various stuff that VC++ produces/uses
+*.sln
+!nodemsi.sln
+*.suo
+*.vcproj
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.tlog
+*.obj
+*.pdb
+*.map
+*.lib
+
+# blockchain
+logs.log
+demo.html
+
+persist
+node_modules/blockchain/app.js
+node_modules/js-sdk/index.js
+public/css/ebook/*.css
+
+# npm
+npm-debug.log

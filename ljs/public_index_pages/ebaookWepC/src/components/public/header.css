@@ -1,0 +1,497 @@
+/* #header {
+    top: 0;
+}
+
+#header article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+#header_container_Id {
+    width: 1170px;
+}
+
+#header_container_Id {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header_container_Id {
+    position: relative;
+}
+
+#header.header-md #topNav a.logo {
+    height: 70px;
+    line-height: 50px;
+}
+
+#topNav a.logo {
+    overflow: hidden;
+    display: inline-block;
+}
+
+#header pull-left {
+    float: left !important;
+}
+
+#header a {
+    color: #337ab7;
+    background-color: transparent;
+    transition: all .300s;
+}
+
+#header a, a:focus, a:hover, a:active {
+    outline: 0;
+    cursor: pointer;
+}
+
+#header.header-md #topNav a.logo > img {
+    height: 70px;
+}
+
+#header a.logo > img:first-child {
+    display: inline-block;
+}
+
+#header a.logo > img {
+    transition: all .300s;
+}
+
+#header img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+#header_navbar {
+    margin-right: 0px;
+    margin-left: 0;
+}
+
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#header_nav{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+ol,ul{
+    padding: 0;
+    margin-top: 0;
+}
+
+.nav-pills > li {
+    float: left;
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+}
+
+#header.header-md #topNav #topMain>li>a {
+    height: 70px;
+    line-height: 50px;
+}
+
+#topMain.nav-pills>li>a {
+    color: #1F262D;
+    font-weight: 400;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.nav-pills > li > a {
+    border-radius: 4px;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+#topNav .nav-pills>li+li {
+    margin-left: 0;
+}
+
+.nav-pills > li {
+    float: left;
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+}
+
+#topMain.nav-pills>li.active>a {
+    color: #687482;
+}
+
+#topMain.nav-pills>li>a {
+    font-weight: 400;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+
+.nav-pills > li > a {
+    border-radius: 4px;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+#section1 .btn a, #section5 .team-box a, .catalog a:hover, .menu_holder a, .menu_holder a:hover, a {
+    text-decoration: none;
+}
+
+a, a:focus, a:hover, a:active {
+    outline: 0;
+    cursor: pointer;
+}
+
+a {
+    transition: all .300s;
+}
+
+#header.header-md #topNav #topMain>li>a {
+    height: 70px;
+    line-height: 50px;
+}
+
+#topNav .nav-pills>li+li {
+    margin-left: 0;
+}
+
+#topMain.nav-pills>li>a {
+    color: #1F262D;
+    font-weight: 400;
+    background-color: transparent;
+    font-size: 16px;
+}
+.nav-pills > li > a {
+    border-radius: 4px;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+a, a:focus, a:hover, a:active {
+    outline: 0;
+    cursor: pointer;
+}
+
+#topMain.nav-pills>li:hover{
+    background-color: rgba(179,229,252,0.5);
+}
+
+#topMain.nav-pills>li.active>.aline {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #179BD7;
+    position: absolute;
+    bottom: -1px;
+} */
+
+/* 新修改的头部样式  */
+
+#header {
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.98);
+    border-bottom: rgba(0, 0, 0, 0.05) 1px solid;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .1) !important;
+    transition: all .800s;
+    height: 60px;
+    width: 100%;
+    min-width: 900px;
+}
+
+.nav-main{
+    font-family:Arial; 
+    font-weight: bold;
+    font-size:24px;
+    color:#044a84;
+    letter-spacing:0;
+    text-align:left;
+    margin-left: 30px;
+    line-height: 60px;
+}
+
+.nav-main a{
+    outline: none;
+    cursor: pointer;
+    color:#044a84;
+    text-decoration: none;
+    height: 60px;
+    width: 164px;
+    display: inline-block;
+}
+
+.nav-menu{
+    width: 650px;
+    height: 60px;
+    float: right;
+}
+
+.nav-menu li{
+    float: left;
+    cursor: pointer;
+}
+
+.nav-menu a{    
+    font-size: 14px;
+    color: #444444;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    height: 60px;
+    /* width: 164px; */
+    max-width: 135px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.nav-menu li:hover{
+    border-bottom: 4px solid #044a84;
+    height: 61px;
+}
+
+.nav-menu .n1 {
+    font-size: 14px;
+    color: #444444;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 60px;
+    height: 60px;
+    /* width: 164px; */
+    max-width: 135px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.active{
+    border-bottom: 4px solid #044a84;
+    height: 61px;
+}
+.download1{
+    left: 299px;
+    position: absolute;
+    width: calc(100% - 790px);
+    top: 60px;
+    min-width: 110px;
+}
+.download2{
+    float:right;
+}
+.download{
+    /* position: fixed; */
+    top: 60px;
+    /* right: 491px; */
+    background-color: rgba(255, 255, 255, 0.98);
+    border:1px solid #dfdfdf;
+    display: block;
+}
+
+.download ul{
+    margin: 0px;
+}
+
+.download li{
+    /* width: 110px; */
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.download li:hover{
+    color: #ffffff;
+    background-color: #044a84;
+}
+
+.download a:hover{
+    color: #ffffff;
+}
+
+.download a{
+    display: block;
+    width: 114px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #444444;
+    /* padding-left: 13px; */
+    text-decoration: none;
+    text-align: center;
+}
+
+.downMask{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+.user1{
+    left: 766px;
+    position: absolute;
+    width: calc(100% - 820px);
+    top: 60px;
+    min-width: 81px;
+}
+.user2{
+    float:right;
+}
+.user{
+    /* position: fixed; */
+    top: 60px;
+    /* right: 491px; */
+    background-color: rgba(255, 255, 255, 0.98);
+    border:1px solid #dfdfdf;
+    display: block;
+}
+
+.user ul{
+    margin: 0px;
+}
+
+.user li{
+    width: 98px;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.user li:hover{
+    color: #ffffff;
+    background-color: #044a84;
+}
+
+.user a:hover{
+    color: #ffffff;
+}
+
+.user a{
+    display: block;
+    /* width: 81px; */
+    line-height: 30px;
+    font-size: 14px;
+    color: #444444;
+    /* padding-left: 13px; */
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.userMask{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+#li_user a{
+    width: 135px;
+    text-align: center;
+}
+
+.chain1{
+    left: 648px;
+    position: absolute;
+    width: calc(100% - 819px);
+    top: 60px;
+    min-width: 81px;
+}
+.chain2{
+    float:right;
+}
+.chain{
+    /* position: fixed; */
+    top: 60px;
+    /* right: 491px; */
+    background-color: rgba(255, 255, 255, 0.98);
+    border:1px solid #dfdfdf;
+    display: block;
+}
+
+.chain ul{
+    margin: 0px;
+}
+
+.chain li{
+    /* width: 123px; */
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.chain li:hover{
+     color: #ffffff;
+     background-color: #044a84;
+ }
+
+.chain a:hover{
+    color: #ffffff;
+}
+/* 
+.chain li:nth-child(2):hover{
+    background-color: rgba(255,255,255,1);
+}
+
+.chain ul li:nth-child(2) a:hover{
+    color: #044a84;
+} */
+
+.chain a{
+    display: block;
+    width: 126px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #444444;
+    /* padding-left: 13px; */
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.chainMask{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+.inactive a{
+    color: #e5e5e5;
+}

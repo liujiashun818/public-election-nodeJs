@@ -1,0 +1,190 @@
+.detailPage {
+    /* position: absolute; */
+    width: 800px;
+    margin: 0 auto;
+    background-color: #FFF;
+    /* left: 50%; */
+    /* top: 50px; */
+    /* margin-left: -400px; */
+    font-family: "simsun Micosoft Yahei";
+}
+
+.detailPage .detailInfo {
+    position: relative;
+}
+
+.detailPage .detailInfo .top {
+    width: 100%;
+    text-align: center;
+}
+
+.detailPage .detailInfo .top .title {
+    font-family: simsun Microsoft Yahei;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.change .n1 {
+    /* height: 30px; */
+    display: inline-block;
+    color: #ff5826;
+    /* display: none; */
+    font-size: 16px;
+    font-weight: 400;
+    /* margin-top: 6px; */
+  }
+
+.detailPage .detailInfo .top .idInfo {
+    font-size: 14px;
+    color: #249cff;
+}
+
+.detailPage .detailInfo .main {
+    padding: 10px 48px;
+    margin-top: 30px;
+}
+
+.detailPage .detailInfo .main .author {
+    height: 48px;
+    margin-bottom: 30px;
+    /*background-image:url(/QQ.png);*/
+    background-repeat: no-repeat;
+    background-position: 11px 0px;
+    background-size: 5%;
+}
+
+.detailPage .detailInfo .main .author .autorName {
+    font-size: #666666;
+    font-weight: 14px;
+    line-height: 24px;
+    margin-left: 15px;
+}
+
+.detailPage .detailInfo .main .author .autorInfo {
+    color: #999999;
+    font-size: 10px;
+}
+
+.detailPage .detailInfo .main .author .autorInfo span {
+    margin-right: 5px;
+}
+
+.detailPage .detailInfo .main .imgInfo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.detailPage .detailInfo .main .imgInfo .photo {
+    text-align: center
+}
+
+.detailPage .detailInfo .main .imgInfo .intro {
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.detailPage .detailInfo .main .words {
+    font-size: 18px;
+    color: #333;
+    line-height: 30px;
+}
+
+.detailPage .detailInfo .main .words p {
+    margin-top: 40px;
+}
+
+.detailPage .detailInfo .main .words .first {
+    margin-top: none;
+}
+
+.detailPage .detailInfo .main .classify {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.detailPage .detailInfo .main .classify .left {
+    float: left;
+}
+
+.detailPage .detailInfo .main .classify .classifyInfo {
+    float: left;
+    width: 80px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #e5e5e5;
+    margin-right: 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(102, 102, 102)
+}
+
+.detailPage .detailInfo .main .classify .right {
+    float: right;
+}
+
+.detailPage .detailInfo .main .classify .right span {
+    margin-right: 30px;
+    font-size: 10px;
+    color: #666;
+}
+
+.detailPage .detailInfo .main .classify .right .report {
+    cursor: pointer;
+}
+
+.detailPage .detailInfo .main .classify .right .report:hover {
+    color: #249cff;
+}
+
+.detailPage .detailInfo .main .interaction {
+    height: 50px;
+    width: 700px;
+    text-align: center;
+}
+
+.detailPage .detailInfo .main .interaction .info {
+    position: absolute;
+    left: 50%;
+    margin-left: 193px;
+}
+
+.detailPage .detailInfo .main .interaction .like,
+.detailPage .detailInfo .main .interaction .collect {
+    float: left;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #249cff;
+    border-radius: 25px;
+}
+
+.detailPage .detailInfo .main .interaction .like:hover,
+.detailPage .detailInfo .main .interaction .collect:hover {
+    background-color: #249cff;
+    color: #FFFFFF;
+}
+
+.detailPage .detailInfo .main .interaction .like {
+    margin-right: 28px;
+    cursor: pointer;
+    padding-left: 28px;
+}
+
+.detailPage .detailInfo .main .interaction .collect {
+    cursor: pointer;
+}
+
+.detailPage .detailInfo .main .interaction .info {
+    color: #249cff;
+}
+
+.detailPage .detailInfo .main .interaction .info .vline {
+    padding: 0 15px;
+}

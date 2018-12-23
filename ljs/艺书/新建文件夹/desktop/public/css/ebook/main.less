@@ -1,0 +1,182 @@
+@import 'navbar';
+@import 'write';
+@import 'editor';
+@import 'mdeditor';
+@import 'postFolder';
+@import 'postList';
+@import 'discover';
+@import 'wallet';
+@import 'loaders';
+@import 'pagination';
+@import 'copyright';
+//@import 'ztree';
+
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../fonts/MaterialIcons/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+  local('MaterialIcons-Regular'),
+  url(../../fonts/MaterialIcons/MaterialIcons-Regular.woff2) format('woff2'),
+  url(../../fonts/MaterialIcons/MaterialIcons-Regular.woff) format('woff'),
+  url(../../fonts/MaterialIcons/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-14 { font-size: 14px; }
+.material-icons.md-16 { font-size: 16px; }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-20 { font-size: 20px; }
+.material-icons.md-24 { font-size: 24px; }  /*default*/
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
+/* Rules for the icon color. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+.material-icons.md-blue { color: rgba(33, 150, 243, 1);  } 
+.material-icons.md-blue.md-inactive { color: rgba(33, 150, 243, 0.26); }
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54);  }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/*JOINT STYLES*/
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+html,body{
+  font-family: "Fakt",AvenirNext-Medium,"Microsoft YaHei","Segoe UI",sans-serif;
+  color: #fff;
+  height:100%;
+  font-size: 14px;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent
+}
+
+nav,ol,ul {
+  display: block; 
+  padding-left: 40px;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+tr,td,th{
+  vertical-align: middle;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  background: transparent;
+}
+a:active,a:hover,a:focus {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  background: transparent;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+i,img{
+  vertical-align: middle;
+}
+
+
+/*滚动条样式*/
+div::-webkit-scrollbar-track
+{
+  border: 1px solid #eee;
+  background-color: #F5F5F5;
+}
+
+div::-webkit-scrollbar
+{
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+div::-webkit-scrollbar-thumb
+{
+  background-color: rgba(0, 136, 204, 0.42); 
+}
+
+
+input, select {
+  vertical-align: middle;
+}
+
+#root,#root>div{
+  height: 100%;
+  width: 100%;
+}
+.navBar{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.subNav{
+  height: 40px;
+  width: 100%;
+}
+
+.mainBody{
+  color: #000;
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  //background-color: #edecec;
+}
